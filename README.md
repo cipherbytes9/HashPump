@@ -30,9 +30,9 @@ Sample Output
 Compile
 =======
 
-    git clone https://github.com/bwall/HashPump.git
-    apt-get install g++ libssl-dev
+    git clone https://github.com/cipherbytes9/HashPump.git
+    sudo apt-get install g++ libssl-dev
     make
-    make install
+    sudo make install
 
 apt-get and make install require root privileges to run correctly.  The actual requirement is for -lcrypto, so depending on your operating system, your dependencies may vary.
